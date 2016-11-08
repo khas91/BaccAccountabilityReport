@@ -261,8 +261,8 @@ namespace BaccAccountability
             xlApp.Range["A2"].Value = "All Programs";
             xlApp.Range["B2"].Value = totalInStateHeadCount;
             xlApp.Range["C2"].Value = totalInStateProgramHours;
-            xlApp.Range["D2"].Value = totalInStateHeadCount;
-            xlApp.Range["E2"].Value = totalOutOfStateHeadCount;
+            xlApp.Range["D2"].Value = totalOutOfStateHeadCount;
+            xlApp.Range["E2"].Value = totalOutOfStateProgramHours;
             
             foreach (String program in programs)
             {
